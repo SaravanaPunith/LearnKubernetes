@@ -154,6 +154,7 @@ The file `/etc/kubernetes/config` is going to be the same on all hosts (master a
  KUBE_LOG_LEVEL="--v=0"
  KUBE_ALLOW_PRIV="--allow-privileged=false"
  KUBE_ETCD_SERVERS="--etcd-servers=http://centos-master:2379"
+ KUBE_MASTER="--master=http://centos-master:8080"
  [root@centos-master ~]# 
 ```
 
